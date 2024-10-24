@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.sobre-projeto {
+    text-align: center;
+    padding: 50px;
+}
+
+.sobre-projeto h1 {
+    font-size: 2.5em;
+    color: #89a86e;
+    margin-bottom: 30px;
+}
+
+.equipe {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.pessoa {
+    text-align: center;
+}
+
+.pessoa img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid#89a86e;
+}
+
+.pessoa h2 {
+    font-size: 1.5em;
+    color: #000000;
+    margin: 15px 0 5px;
+}
+
+.pessoa p {
+    font-size: 1.1em;
+    color: #000000;
+}
+
+.descricao {
+    font-size: 1em;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
